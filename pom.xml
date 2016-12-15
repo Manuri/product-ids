@@ -1209,10 +1209,10 @@
                 <version>${com.google.code.gson.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.atlassian.httpclient</groupId>
-                <artifactId>atlassian-httpclient-plugin</artifactId>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpasyncclient</artifactId>
                 <type>jar</type>
-                <version>${com.atlassian.httpclient.version}</version>
+                <version>${httpasyncclient.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
@@ -1496,7 +1496,7 @@
 
         <!--webapps runtime dependency versions-->
         <com.google.code.gson.version>2.5</com.google.code.gson.version>
-        <com.atlassian.httpclient.version>0.17.3</com.atlassian.httpclient.version>
+        <httpasyncclient.version>4.0</httpasyncclient.version>
         <httpclient.version.4.3.1>4.3.1</httpclient.version.4.3.1>
         <com.ibm.icu.version>2.6.1</com.ibm.icu.version>
         <com.sun.jersey.version>1.8</com.sun.jersey.version>

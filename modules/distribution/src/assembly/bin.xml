@@ -896,6 +896,7 @@
                 <include>org.codehaus.jettison:jettison:jar</include>
                 <include>org.apache.httpcomponents:httpclient:jar</include>
                 <include>org.apache.httpcomponents:httpcore-nio:jar</include>
+                <include>org.apache.httpcomponents:httpasyncclient:jar</include>
             </includes>
         </dependencySet>
         <dependencySet>
